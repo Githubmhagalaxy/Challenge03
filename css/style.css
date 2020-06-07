@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebfbf8;
+  font-family: sans-serif;
+  padding: 40px;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0 0 30px;
+}
+@media screen and (max-width: 430px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 90px;
+  box-shadow: 0 0 6px 0 #5e5c5c;
+}
+@media screen and (max-width: 570px) {
+  .container {
+    padding: 30px;
+  }
+}
+.container h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 0 20px;
+}
+@media screen and (max-width: 570px) {
+  .container h2 {
+    font-size: 1rem;
+  }
+}
+.container .pass-show {
+  text-align: center;
+}
+.container .pass-show hr {
+  height: 3px;
+  background-color: #c7c7c7;
+  margin: 10px auto;
+  border: none;
+}
+.container .pass-show .password {
+  word-wrap: break-word;
+  height: 32vh;
+  text-align: center;
+  padding: 30px;
+  border: 3px dashed #ddd;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  color: #a09a9a;
+}
+@media screen and (max-width: 430px) {
+  .container .pass-show .password {
+    padding: 30px 0;
+  }
+}
+.container .pass-show button {
+  padding: 10px;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.4rem;
+  margin: 20px auto;
+}
+@media screen and (max-width: 570px) {
+  .container .pass-show button {
+    font-size: 0.7rem;
+  }
+}
+.container .pass-show button:hover {
+  background-color: darkred;
+  border-color: darkred;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
